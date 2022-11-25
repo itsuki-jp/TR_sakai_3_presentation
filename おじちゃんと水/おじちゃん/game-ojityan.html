@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>おじちゃんと水</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <script src="ojityan1.js"></script>
+    <script>
+        window.onload = ()=>{
+          // canvas準備
+          const board = document.querySelector("#canvas");  //getElementById()等でも可。オブジェクトが取れれば良い。
+          const ctx = board.getContext("2d");
+          // 画像読み込み
+          const chara = new Image();
+          chara.src = "oji-side.png";  // 画像のURLを指定
+          chara.onload = () => {
+            ctx.drawImage(chara, 300, 100);
+          };
+        };
+        </script>
+</body>
+</html>

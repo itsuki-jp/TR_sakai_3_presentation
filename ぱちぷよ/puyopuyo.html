@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="puyopuyo.js"></script>
+
+    <link rel="stylesheet" href="puyopuyo.css">
+    <title>ぱちぷよ</title>
+</head>
+
+<body>
+    <h1>ぱちぷよ</h1>
+    <div class="wrapper-container">
+        <span class="puyopuyo-container">
+            <canvas id="stage" width="240px" height="500px" style="background-color:black;"></canvas>
+            <span class="puyopuyo-panel-container">
+                <p>Next:</p>
+                <canvas id="next" width="150px" height="150px" style="background-color:black;"></canvas>
+                 <tr>
+                    <td></td>
+                    <td id="puyopuyo-rotate-button" class="puyopuyo-button">↑</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td id="puyopuyo-move-left-button" class="puyopuyo-button">←</td>
+                    <td id="puyopuyo-fall-button" class="puyopuyo-button">↓</td>
+                    <td id="puyopuyo-move-right-button" class="puyopuyo-button">→</td> 
+                </tr>
+            </span>
+        </span>
+    </div>
+    <script src="./puyopuyo_2.js">
+    </script>
+    <!-- <script src="./puyopuyo_3.js"></script> -->
+    <hr />
+    <a href="./mamu.html">ひとつ前のページへ戻る</a>
+</body>
+
+</html>

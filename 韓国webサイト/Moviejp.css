@@ -1,0 +1,101 @@
+* {
+    animation: fadein 1s forwards;
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+body {
+    background-color: #8a7479;
+    font-family: '';
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #efdde8;
+    color: #8a7479;
+    position: fixed;
+    top: 0;
+}
+li {
+    float: left;
+    border-right: 1px solid #8a7479;
+}
+li a {
+    display: block;
+    color: #8a7479;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-family: 'Gamja Flower';
+}
+li a:hover:not(.home) {
+    background-color: #544d4e;
+    color: #efdde8;
+}
+.home {
+    background-color: #8a7479;
+    color: #efdde8;
+}
+.all {
+    padding: 120px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    justify-content: space-around;
+}
+img {
+    opacity: 0.3 !important;
+    width: 300px;
+    height: 200px;
+}
+.Taxi {
+    position: relative;
+}
+.Taxi p {
+    color: #efdde8;
+    font-size: 30px;
+    opacity: 0.7 !important;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    margin: 0;
+    padding: 0;
+}
+.Taxi a {
+    text-decoration: none;
+    color: #efdde8;
+}
+.No7 {
+    position: relative;
+}
+.No7 p {
+    color: #efdde8;
+    font-size: 30px;
+    opacity: 0.7 !important;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    margin: 0;
+    padding: 0;
+}
+.No7 a {
+    text-decoration: none;
+    color: #efdde8;
+}
+.jp {
+    font-family: 'Sawarabi Gothic';
+}
+select {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    width: 140px;
+    border: none;
+    color: #8a7479;
+    font-family: 'Poor Story', 'Sawarabi Gothic';
+}

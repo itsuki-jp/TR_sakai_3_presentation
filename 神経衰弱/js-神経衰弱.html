@@ -1,0 +1,66 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>神経衰弱ゲーム</title>
+
+    <style>
+        #panel{
+            width: 900px;
+            height: 150px;
+        }
+
+        .card{
+            width: 270px;
+            height: 400px;
+            float:left;
+            cursor: pointer;
+            margin: 10px;
+        }
+        
+        /*裏の状態*/
+        .back{
+            background-image: url('スクリーンショット 2022-11-23 16.25.18のコピー.png');
+            background-image: 180px 240px;
+        }
+
+        /*表の状態*/
+        .face1{
+           background-image: url('スクリーンショット 2022-11-23 23.35.34.png');
+           background-image: 180px 240px;
+        }
+        
+        .face2{
+            background-image: url('スクリーンショット 2022-11-24 0.12.59.png');
+            background-image: 180px 240px;
+        }
+
+        .face3{
+            background-image: url('jpg3.png');
+            background-image: 180px 240px;
+        }
+
+        .face4{
+            background-image: url('jpg4.png');
+            background-image: 180px 240px;
+        }
+
+        .face5{
+            background-image: url('jpg5.png');
+            background-image: 180px 240px;
+        }
+        /**終了時*/
+        .finish{
+            cursor:default;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="panel1" class="end"></div>
+        <div id="panel2" class="a"></div>
+    </div>
+    <div id="image" ></div>
+<script src="神経衰弱.js"></script>
+<link href="神経衰弱.css" rel="stylesheet">
+</body>
+</html>

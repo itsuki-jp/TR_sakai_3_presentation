@@ -1,0 +1,45 @@
+body{
+    background-color: #e1e2d6;
+    color:#6c3411;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1 {
+    color: #da471d;/*文字色*/
+    padding: 0.5em 0;/*上下の余白*/
+    border-top: solid 4px #da471d;/*上線*/
+    border-bottom: solid 4px #da471d;/*下線*/
+  }
+table{
+    table-layout: fixed;
+    border-collapse:collapse;
+}
+th, td{padding:15px 50px;
+    border: solid 3px;
+    font-size: 140%;
+}
+.nagame{
+    width: 150px;
+}
+#hantei{ width: 30%;
+    min-width: 100px;
+    max-width: 200px;
+    
+}
+button{
+    width: 50%;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px;
+    background-color:#008a82;
+    color:#ccb68c;
+    font-size: 110%;
+}
+.osu{
+    text-align:center
+}
+input{
+    padding: left 30px;
+}

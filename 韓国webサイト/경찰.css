@@ -1,0 +1,76 @@
+* {
+    animation: fadein 1s forwards;
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+body {
+    background-color: #8a7479;
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #efdde8;
+    color: #8a7479;
+    position: fixed;
+    top: 0;
+}
+li {
+    float: left;
+    border-right: 1px solid #8a7479;
+}
+li a {
+    display: block;
+    color: #8a7479;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+li a:hover:not(.home) {
+    background-color: #544d4e;
+    color: #efdde8;
+}
+.home {
+    background-color: #8a7479;
+    color: #efdde8;
+}
+.police {
+    font-family: 'Poor Story';
+    color: #efdde8;
+    
+    text-align: center;
+    padding: 50px;
+}
+img {
+    opacity: 0.5 !important;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 350px;
+}
+select {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    width: 140px;
+    border: none;
+    color: #8a7479;
+    font-family: 'Poor Story','Sawarabi Gothic';
+}
+.a {
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #efdde8;
+}
+

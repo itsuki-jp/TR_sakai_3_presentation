@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>quiz</title>
+</head>
+
+<body>
+    <h1>目的地はどこ？</h1><h3></h3>
+    <video type="video/webm" src="マイムービー 5.mp4"></video>
+    <button id="btn_play">スタート</button>
+    <button hidden id="quiz_hint">ヒント</button>
+    <p  hidden id="quiz_hint2">開始地点から目的地までの直線距離は約10kmです。<br>ちなみに334秒加算しました。頑張ってください。</p>
+    <div class="container"></div>
+    <div id="content-top"></div>
+    <div id="quiz_sentence" class="text-content"></div>
+    <div id="quiz_answer_select" class="text-content"></div>
+    <button hidden id="quiz_send_button" class="text-content">解答！</button>
+    <div id="quiz_result" class="text-content"></div>
+    <p id="quiz-time"></p>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
