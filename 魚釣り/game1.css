@@ -1,0 +1,17 @@
+body{
+    background-color: deepskyblue;
+}
+a{
+    position: absolute;
+    color: blue;
+    top: 500px;
+    left: 600px;
+    font-size: 50PX;
+}
+h1{
+    position: absolute;
+    color: darkred;
+    top: 200px;
+    left: 500px;
+    font-size: 40px;
+}
