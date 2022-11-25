@@ -14,21 +14,21 @@ let img4loaded = false;
 img.onload = function () {
     img1loaded = true;
 }
-img.src = '772547cc-9f3f-42ef-bd77-78040ad2bc2a.png'
+img.src = '772547CC-9F3F-42EF-BD77-78040AD2BC2A.png'
 
 img1.onload = function () {
     img2loaded = true;
 }
-img1.src = '7500b627-c3ae-4e80-b3e5-8c3b86048567.png'
+img1.src = '7500B627-C3AE-4E80-B3E5-8C3B86048567.png'
 
 img2.onload = function () {
     img3loaded = true;
 }
-img2.src = 'e6dd4f1d-f287-4696-af65-976ddffef159.png'
+img2.src = 'E6DD4F1D-F287-4696-AF65-976DDFFEF159.png'
 img3.onload = function () {
     img4loaded = true;
 }
-img3.src = '9a54fe21-79fa-4cc7-99fb-532d56fb5f46.png'
+img3.src = '9A54FE21-79FA-4CC7-99FB-532D56FB5F46.png'
 
 let tsuribariX = 850;
 let tsuribariY = 250;
@@ -533,7 +533,7 @@ function C() {
     }
     ctx.font = '48px serif'
     ctx.fillText('ポイント' + point, 300, 100)
-    let time = 60 - cunter*0.2
+    let time = 60 - cunter * 0.2
     if (time < 0) {
         console.log("前の画面に戻る")
     }
